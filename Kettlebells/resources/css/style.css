@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	max-width: 60rem;
+	margin: 0 auto;
+	background-color: #cce9ff;
+	color: #00345C;
+}
+
+aside {
+	margin: 3rem 0rem;
+	background-color: #DB6D00;
+	padding: 0.1rem 0rem 0.1rem 2rem;
+	margin-bottom: 10rem;
+}
+
+header{
+	padding-bottom: 1.5rem;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5rem;
+	margin-bottom: 5rem;
+}
+
+h2 {
+	color: #00345C;
+	font-size: 2.5rem;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h1, h2, h3, a {
+	font-family: monospace;
+}
+
+figure {
+	width: 100%;
+	margin: 0 auto;
+}
+
+figcaption {
+	font-size: 1.2rem;
+}
+
+nav h2 {
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+li {
+	font-size: 1.5rem;
+	padding: 1rem;
+	color: #DB6D00;
+}
+
+ul a {
+	color: #DB6D00;
+}
+
+footer {
+	text-align: center;
+	padding: 0.3rem;
+	background-color: #DB6D00;
+	color: #00345C;
+	margin-top: 5rem;
+}
+
+button {
+  color: #00345C;
+  background-color: #DB6D00;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0.4rem 0.2rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+}
+
+article h2 {
+	margin-top: 5rem;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+.review {
+	font-size: 2rem;
+	color: #00345C;
+	font-style: italic;
+	padding-left: 1rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.kettlebell-img {
+	max-width: 60%;
+	height: auto;
+	margin: 0 auto;
+	border: 0.3rem solid #00345C;
+}
+
+.bluekettlebell {
+	position: relative;
+	left: 12rem;
+}
+
+.checked {
+  color: yellow;
+}
+
+.fa-star {
+	font-size: 2rem;
+}
+
+ul a:hover {
+  color: red;
+  font-size: 2rem;
+}
